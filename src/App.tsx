@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import HomePage from './components/HomePage'
 import Page2 from './components/Page2'
+import Page3 from './components/Page3'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <HomePage />
       <Page2 />
+      <Page3 />
     </div>
   )
 }

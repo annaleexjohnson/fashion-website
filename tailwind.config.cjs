@@ -49,6 +49,10 @@ module.exports = {
         '5xl': '3.052rem',
         '10xl': '6rem' 
       },
+
+      fontWeight: {
+        'xbold' : '800'
+      }
     }
   },
 
