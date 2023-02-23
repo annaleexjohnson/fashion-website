@@ -1,6 +1,6 @@
 const Header = () => {
     return(
-        <div className="z-50 relative flex flex-col justify-between content-top h-[100%] w-[12vh] py-8 px-6 m-0 border-r border-black">
+        <div className="z-50 fixed flex flex-col justify-between content-top h-[100%] min-w-[9vw] py-8 px-6 m-0 bg-white border-r border-black">
             <div >
                 <div className="absolute rotate-[270deg] origin-[100%]">
                     icon

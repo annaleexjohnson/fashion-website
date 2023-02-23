@@ -1,6 +1,6 @@
 const HomePage = () => {
     return(
-        <div className="flex flex-wrap flex-col content-center w-[100vw] h-[100vh]">
+        <div className="flex flex-wrap flex-col content-center min-w-[91vw] h-[100vh] ml-[9vw]">
             {/* title */}
             <div className="h-[20vh] flex flex-row justify-between px-4">
                 <h1 className="text-10xl ">VORL&Iacute;F</h1>
