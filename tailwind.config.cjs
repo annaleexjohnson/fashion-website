@@ -23,9 +23,13 @@ module.exports = {
 
       keyframes: {
         moveText: {
-          "0%, 100%": { transform: "translateX('0')" },
-          "50%": { transform: "translateX('200%')" },
-        }
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(200%)" },
+        },
+        movePics25: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-25%)" }
+        },
       },
 
       animation: {
