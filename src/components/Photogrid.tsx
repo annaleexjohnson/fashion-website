@@ -1,6 +1,6 @@
 const Photogrid = () => {
     return(
-        <div className="flex flex-wrap flex-row gap-2 justify-center h-[100vh] min-w-[91vw] bg-black">
+        <div className="flex flex-wrap flex-row md:gap-2 justify-center h-[100vh] min-w-[91vw] bg-black overflow-hidden">
             <div className="flex flex-col basis-[30%] p-2 gap-4 -translate-y-[25%] animate-[movePics25_5s_linear_1]">
                 <div className="h-[50vh] bg-model1 bg-center bg-cover"></div>
                 <div className="h-[50vh] bg-model2 bg-center bg-cover"></div>

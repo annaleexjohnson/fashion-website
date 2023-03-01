@@ -13,14 +13,15 @@ import Photogrid from './components/Photogrid'
 function App() {
 
   return(
-    <div className="font-sans flex flex-row h-[100vh] m-h-[100vh] overflow-y-hidden overflow-x-auto">
+    <div className="font-sans flex flex-col w-[100vw] m-w[100vw]
+    md:flex-row md:h-[100vh] md:m-h-[100vh] md:width-auto md:overflow-y-hidden md:overflow-x-auto">
       <Header/>
       <HomePage />
       <Page2 />
       <Page3 />
-      <Page4 />   
       <Photogrid />
       <Page5 />
+      <Page4 />   
     </div>
   )
 }
