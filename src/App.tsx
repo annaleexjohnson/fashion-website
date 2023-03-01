@@ -1,5 +1,4 @@
 import { useState, useEffect} from 'react'
-import './App.css'
 
 import Header from './components/Header'
 import HomePage from './components/HomePage'
@@ -17,12 +16,13 @@ interface WheelEvent<T = Element> {
 
 const App = () =>{
 
+  const target = document.getElementById("App") as HTMLDivElement
+
   // On scroll with wheel
   const handleWheelEvent = (e: React.WheelEvent<HTMLDivElement>) => {
     if (!e.deltaY) {
       return;
     }
-    const target = document.getElementById("App") as HTMLDivElement
     target.scrollLeft += e.deltaY + e.deltaX;
   };
 
@@ -30,7 +30,7 @@ const App = () =>{
     <div id="App" 
     onWheel={handleWheelEvent}
     className="font-sans flex flex-col w-[100vw] m-w[100vw]
-    md:flex-row md:h-[100vh] md:m-h-[100vh] md:width-auto md:overflow-y-hidden md:overflow-x-auto">
+    md:fixed md:flex-row md:h-[100vh] md:m-h-[100vh] md:width-auto md:overflow-y-hidden md:overflow-x-auto">
       <Header/>
       <HomePage />
       <ModelProfile />
