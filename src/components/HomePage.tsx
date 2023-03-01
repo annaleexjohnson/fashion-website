@@ -21,7 +21,7 @@ const HomePage = () => {
 
 
             {/* image */}
-            <div className=" w-[100%] md:w-[95%] h-[50vh] bg-model1 bg-[center_bottom_10%] bg-cover"></div>
+            <div className=" w-[100%] md:w-[95%] h-[50vh] bg-model1 bg-[center_bottom_15%] bg-cover"></div>
 
 
             {/* bottom text */}
