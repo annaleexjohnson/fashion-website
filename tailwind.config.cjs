@@ -22,7 +22,7 @@ module.exports = {
 
 
       keyframes: {
-        moveText: {
+        moveTextInfinite: {
           "0%, 100%": { transform: "translateX(0)" },
           "50%": { transform: "translateX(200%)" },
         },
@@ -30,10 +30,6 @@ module.exports = {
           "0%": { transform: "translateY(0)" },
           "100%": { transform: "translateY(-25%)" }
         },
-      },
-
-      animation: {
-        moveText: "moveText 10s linear infinite",
       },
 
 

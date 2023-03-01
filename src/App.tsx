@@ -6,6 +6,7 @@ import HomePage from './components/HomePage'
 import Page2 from './components/Page2'
 import Page3 from './components/Page3'
 import Page4 from './components/Page4'
+import Page5 from './components/Page5'
 import Photogrid from './components/Photogrid'
 
 
@@ -19,6 +20,7 @@ function App() {
       <Page3 />
       <Page4 />   
       <Photogrid />
+      <Page5 />
     </div>
   )
 }
