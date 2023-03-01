@@ -30,9 +30,9 @@ module.exports = {
           "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(100%)" },
         },
-        movePics25: {
+        picCarousel: {
           "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(-25%)" }
+          "100%": { transform: "translateY(-50%)" }
         },
       },
 
