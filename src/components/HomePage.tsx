@@ -1,3 +1,5 @@
+import MovingBtn from "../assets/MovingBtn"
+
 const HomePage = () => {
     return(
         <div className="flex flex-wrap flex-col content-center min-w-[91vw] h-[100vh] ml-[9vw]">
@@ -29,19 +31,7 @@ const HomePage = () => {
                             OUTERWEAR <br/>
                             COL.
                         </span>
-                        <div className="flex">
-                            {/* moving text */}
-                            <div className=" w-[8rem] h-[2rem] border rounded-md border-black overflow-hidden">
-                                <span className="h-[100%] w-[100%] animate-moveText">SHOP COLLECTION / SHOP COLLECTION</span>
-                            </div>
-                            {/* icon */}
-                            <div className=" flex flex-wrap justify-center content-center w-[2rem] h-[2rem] border rounded-md border-black">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
-                                </svg>
-                            </div>
-                        </div>
-                        
+                        <MovingBtn />
                     </div>
                 </div>
             </div>

@@ -20,11 +20,11 @@ module.exports = {
         'landscape4': "url('./src/assets/photos/landscape4.jpg')",
       },
 
-
+      
       keyframes: {
         moveTextInfinite: {
-          "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(200%)" },
+          "0%, 100%": { transform: "translateX(-150%)" },
+          "50%": { transform: "translateX(10%)" },
         },
         movePics25: {
           "0%": { transform: "translateY(0)" },

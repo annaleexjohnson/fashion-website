@@ -7,3 +7,16 @@
       font-family: Roboto, system-ui, sans-serif;
     }
   }
+
+@layer utilities {
+  .play{
+    animation-play-state: running;
+  }
+
+  .pause:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+}
+
+

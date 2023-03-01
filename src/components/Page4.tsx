@@ -1,3 +1,5 @@
+import MovingBtn from "../assets/MovingBtn"
+
 const Page4 = () => {
     return(
         <div className="relative flex flex-row flex-wrap min-w-[91vw] h-[100vh]">
@@ -20,15 +22,7 @@ const Page4 = () => {
                 <div className="basis-1/2 p-8">
                     <h3 className="font-bold pb-4">THE SPRING MOVE</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, maiores maxime aperiam culpa corporis a? Omnis dignissimos quam cupiditate cumque ea odit fugit? Accusantium autem atque, ducimus quaerat totam blanditiis?</p>
-                    {/* moving text */}
-                    <div className="flex pt-4">
-                        <div className=" w-[8rem] h-[2rem] border rounded-md border-black overflow-hidden">
-                            <span className="h-[100%] w-[100%] whitespace-nowrap animate-moveText">SHOP COLLECTION / SHOP COLLECTION</span>
-                        </div>
-                        {/* icon */}
-                        <div className=" flex flex-wrap justify-center content-center w-[2rem] h-[2rem] border rounded-md border-black">
-                        </div>
-                    </div>
+                    <MovingBtn />
                 </div>
             </div>
 
