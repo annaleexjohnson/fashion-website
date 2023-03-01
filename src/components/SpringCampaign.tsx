@@ -1,6 +1,6 @@
 import MovingBtn from "../assets/MovingBtn"
 
-const Page4 = () => {
+const SpringCampaign = () => {
     return(
         <div className="relative flex flex-col flex-wrap min-w-[91vw] m-w-[100vw] h-[100vh] bg-black text-white
         md:min-w-[91vw] md:flex-row">
@@ -60,4 +60,4 @@ const Page4 = () => {
     )
 }
 
-export default Page4
+export default SpringCampaign

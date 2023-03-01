@@ -1,4 +1,4 @@
-const Page2 = () => {
+const ModelProfile = () => {
     return(
         <div className="flex flex-wrap flex-col w-[100vw] min-w-[50vw] m-h-[100vh] 
         bg-black color text-white 
@@ -21,5 +21,5 @@ const Page2 = () => {
     )
 }
 
-export default Page2
+export default ModelProfile
 

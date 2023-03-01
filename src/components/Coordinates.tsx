@@ -1,4 +1,4 @@
-const Page5 = () => {
+const Coordinates = () => {
     return(
         <div className="relative flex flex-row flex-wrap content-center min-w-[91vw] h-[100vh] overflow-x-hidden">
             {/* text under main images */}
@@ -56,4 +56,4 @@ const Page5 = () => {
     )
 }
 
-export default Page5
+export default Coordinates

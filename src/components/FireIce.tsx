@@ -1,4 +1,4 @@
-const Page3 = () => {
+const FireIce = () => {
     return(
         <div className="relative flex flex-wrap min-w-[91vw] m-w-[100vw] h-[100vh] m-h-[100vh]">
 
@@ -35,4 +35,4 @@ const Page3 = () => {
     )
 }
 
-export default Page3
+export default FireIce
