@@ -30,7 +30,7 @@ const HomePage = () => {
 
                 {/* left side */}
                 <div className="flex basis-1/2 flex-col justify-between">
-                    <a href="/" className="text-xs tracking-wide pt-2 md:text-base lg:text-sm 2xl:text-lg">
+                    <a href="/" className="link text-xs tracking-wide pt-2 md:text-base lg:text-sm 2xl:text-lg">
                         VIEW LOOKBOOK +
                     </a>
                     <h1 className="text-3xl md:text-[4rem] lg:text-10xl 2xl:text-15xl">
@@ -45,7 +45,7 @@ const HomePage = () => {
                         <h1 className="text-3xl md:text-[4rem] md:pl-20 xl:text-10xl 2xl:text-15xl">
                             /22
                         </h1>
-                        <a href="/" className="text-xs tracking-wide pt-2 md:text-base lg:text-sm 2xl:text-lg">
+                        <a href="/" className="link text-xs tracking-wide pt-2 md:text-base lg:text-sm 2xl:text-lg">
                             WATCH FILM +
                         </a>
                     </div>
