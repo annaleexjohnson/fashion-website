@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, WheelEventHandler } from 'react'
+import { useState, useEffect} from 'react'
 import './App.css'
 
 import Header from './components/Header'
@@ -9,11 +9,27 @@ import SpringCampaign from './components/SpringCampaign'
 import Coordinates from './components/Coordinates'
 import Photogrid from './components/Photogrid'
 
+interface WheelEvent<T = Element> {
+  deltaX: number;
+  deltaY: number;
+  target: HTMLDivElement;
+}
 
-function App() {
+const App = () =>{
+
+  // On scroll with wheel
+  const handleWheelEvent = (e: React.WheelEvent<HTMLDivElement>) => {
+    if (!e.deltaY) {
+      return;
+    }
+    const target = document.getElementById("App") as HTMLDivElement
+    target.scrollLeft += e.deltaY + e.deltaX;
+  };
 
   return(
-    <div className="font-sans flex flex-col w-[100vw] m-w[100vw]
+    <div id="App" 
+    onWheel={handleWheelEvent}
+    className="font-sans flex flex-col w-[100vw] m-w[100vw]
     md:flex-row md:h-[100vh] md:m-h-[100vh] md:width-auto md:overflow-y-hidden md:overflow-x-auto">
       <Header/>
       <HomePage />
