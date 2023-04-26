@@ -22,10 +22,15 @@ On desktop, the site transitions to a horizontal scroll, whether the user utiliz
 However, on mobile, it converts effortlessly into a responsive version that scrolls vertically.
 The site also contains custom animations and components thanks to the Tailwind and React library.
 
+Site Homepage:
+
 <img width="1437" alt="homepage_kove" src="https://user-images.githubusercontent.com/87035551/234446367-00616006-aee9-4d17-b828-386d52c047f8.png">
 
+Click play to see the site on mobile!
 
 https://user-images.githubusercontent.com/87035551/234446426-15a0eb14-5c56-430e-a75b-cc8a92c9cd33.mov
+
+Click play to see the site on desktop!
 
 https://user-images.githubusercontent.com/87035551/234446409-e12eaa69-da3e-4ec8-a62a-a751824be442.mov
 
