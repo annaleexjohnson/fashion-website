@@ -25,8 +25,9 @@ The site also contains custom animations and components thanks to the Tailwind a
 <img width="1437" alt="homepage_kove" src="https://user-images.githubusercontent.com/87035551/234446367-00616006-aee9-4d17-b828-386d52c047f8.png">
 
 
+https://user-images.githubusercontent.com/87035551/234446426-15a0eb14-5c56-430e-a75b-cc8a92c9cd33.mov
+
 https://user-images.githubusercontent.com/87035551/234446409-e12eaa69-da3e-4ec8-a62a-a751824be442.mov
 
 
-https://user-images.githubusercontent.com/87035551/234446426-15a0eb14-5c56-430e-a75b-cc8a92c9cd33.mov
 
